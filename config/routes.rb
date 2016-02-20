@@ -2,6 +2,14 @@ Rails.application.routes.draw do
 
   root to: 'welcome#index'
 
+  get 'welcome/index'
+  get 'welcome/quemsomos'
+  get 'welcome/faleconosco'
+  get 'welcome/sites'
+  get 'welcome/redessociais'
+  get 'welcome/sistemasweb'
+  get 'welcome/gestaoti'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
