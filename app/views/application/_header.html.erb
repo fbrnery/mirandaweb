@@ -1,17 +1,20 @@
-<div class="cover">
-  <div class="navbar">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"><span><%= image_tag "logo-miranda-3.png" =%></span></a>
-      </div>
-      <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-        <ul class="nav nav-pills navbar-right">
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <div class='row'>
+      <div class="col-xs-12 col-sm-8 col-md-9">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only" ></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <%= image_tag 'logo-miranda-3.png'=%>
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav nav-pills navbar-right">
             <li role="presentation"><%= link_to "Home", welcome_index_path%></li>
             <li role="presentation"><%= link_to "Quem somos", welcome_quemsomos_path%></li>
             <li role="presentation"><%= link_to "Fale Conosco", welcome_faleconosco_path%></li>
@@ -20,6 +23,8 @@
             <li role="presentation"><%= link_to "Sistemas de Web", welcome_sistemasweb_path%></li>
             <li role="presentation"><%= link_to "Soluções em Gestão de TI", welcome_gestaoti_path%></li>
           </ul>
+        </div><!--/.navbar-collapse -->
       </div>
     </div>
   </div>
+</nav>
