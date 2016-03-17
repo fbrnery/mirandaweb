@@ -1,0 +1,89 @@
+</br>
+</br>
+</br>
+
+<div class="container">
+  <div class="jumbotron">
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <%= image_tag 'business.png' %>
+      </a>
+    </div>
+    <p class="text-right">
+      <h2>Sites</h2>
+  </p>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    <p class="text-justify">
+
+      Temos diversas soluções em desenvolvimento de websites, hotsites, blogs acompanhadas do marketing digital
+      e social mídia, sites com estruturas diferenciadas  e adaptadas a necessidade de seu empreendimento, e com layout responsivos
+      adaptados a qualquer tecnolgia.
+    </p>
+      </br
+      </br>
+      </br>
+
+      <h4 p class="text-center">MODELOS INICIAIS DO FRAMEWORK BOOTSTRAP COM LAYOUTS RESPONVIVOS, PARA SUA ESCOLHA: <h5>
+      </br>
+      </br>
+        <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <%= image_tag 'starter-template.jpg'=%>
+        <h4>Modelo Básico</h4>
+        <p class="text-justify"> CSS e JavaScript integrados. </p>
+        <p><a class="btn btn-default" href="#" role="button">Ver Detalhes &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <%= image_tag 'theme.jpg' =%>
+        <h4>Bootstrap theme</h4>
+        <p class="text-justify"> Carregar o tema opcional Bootstrap para uma experiência visual aprimorada.</p>
+        <p><a class="btn btn-default" href="#" role="button">Ver Detalhes &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <%= image_tag 'jumbotron.jpg' =%>
+        <h4>Jumbotron</h4>
+        <p class="text-justify">
+          Construir em torno do jumbotron com uma barra de navegação e algumas colunas de grade básicas.</p>
+        <p><a class="btn btn-default" href="#" role="button">Ver Detalhes &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  </div>
+
+  </br>
+  </br>
+  </br>
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <%= image_tag 'jumbotron-narrow.jpg' =%>
+        <h4>Jumbontron Narrow</h4>
+        <p class="text-justify">Construir uma página personalizada mais estreitando o container padrão e jumbotron. </p>
+        <p><a class="btn btn-default" href="#" role="button">Ver Detalhes &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <%= image_tag 'cover.jpg' =%>
+        <h4>Cover</h4>
+        <p class="text-justify"> Um modelo de uma página para a construção de home pages simples e bonita. </p>
+        <p><a class="btn btn-default" href="#" role="button">Ver Detalhes &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <%= image_tag 'carousel.jpg' =%>
+        <h4>Carrousel</h4>
+        <p class="text-justify"> Site personalizado com a barra de navegação e carrossel, com alguns novos componentes. </p>
+        <p><a class="btn btn-default" href="#" role="button">Ver Detalhes &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  </div>
+
+  </br>
+  </br>
