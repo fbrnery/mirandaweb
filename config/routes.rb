@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get 'welcome/faleconosco'
   get 'welcome/sites'
   get 'welcome/redessociais'
-  get 'welcome/sistemasweb'
+  get 'welcome/lojasvirtuais'
   get 'welcome/gestaoti'
 
   # The priority is based upon order of creation: first created -> highest priority.
