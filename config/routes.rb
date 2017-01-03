@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get 'welcome/sites'
   get 'welcome/redessociais'
   get 'welcome/lojasvirtuais'
-  get 'welcome/gestaoti'
+  get 'welcome/sistemasweb'
   get 'welcome/empresa'
   get 'welcome/suporte'
   get 'welcome/orcamento'
