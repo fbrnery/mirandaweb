@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   get 'welcome/index'
   get 'welcome/quemsomos'
-  get 'welcome/faleconosco'
+  get 'welcome/contatos'
   get 'welcome/sites'
   get 'welcome/redessociais'
   get 'welcome/lojasvirtuais'
